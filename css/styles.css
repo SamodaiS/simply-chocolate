@@ -32,7 +32,7 @@ body {
   .logo {
 font-size: 18px;
 font-weight: 700;
-line-height: 1,28; 
+line-height: 1.28; 
 letter-spacing: -0.54px;
 cursor: pointer;
 list-style-type: none;
@@ -44,7 +44,7 @@ color: var(--title-text-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: -0.28px;
   color: var(--title-text-color);
 }
@@ -58,7 +58,7 @@ color: var(--title-text-color);
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1,21;
+    line-height: 1.21;
     letter-spacing: -0.84px;
     color: var(--primari-white-color);
   }
@@ -91,7 +91,7 @@ color: var(--primari-white-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 1,28;
+line-height: 1.28;
 letter-spacing: -0.42px;
 color: var(--primari-white-color)
   }
@@ -127,7 +127,7 @@ text-align: center;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
-line-height: 1,16; 
+line-height: 1.16; 
 letter-spacing: -0.72px;
 text-transform: uppercase;
 color: var(--title-text-color);
@@ -142,7 +142,7 @@ text-align: center;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 1,28;
+line-height: 1.28;
 letter-spacing: -0.28px;
 color: var(--title-text-color);
 }
@@ -155,7 +155,7 @@ color: var(--title-text-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
-line-height: 1,28; 
+line-height: 1.28; 
 letter-spacing: -0.28px;
 text-transform: uppercase; 
 color: var(--title-text-color);
@@ -171,7 +171,7 @@ text-align: center;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
-line-height: 1,16;
+line-height: 1.16;
 letter-spacing: -0.72px;
 text-transform: uppercase;
 color: var(--title-text-color);
@@ -185,7 +185,7 @@ color: var(--title-text-color);
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
-line-height: 1,33;
+line-height: 1.33;
 color: var(--title-text-color);
 }
 
@@ -233,7 +233,7 @@ text-align: center;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 1,16; 
+line-height: 1.16; 
 letter-spacing: -0.28px;
 color: rgba(17, 17, 17, 0.70);
 }
@@ -264,7 +264,7 @@ background-color: var(--accent-color);
 font-size: 28px;
 font-style: normal;
 font-weight: 500;
-line-height: 1,21;
+line-height: 1.21;
 letter-spacing: -0.56px;
 color: var(--primari-white-color);
 }
@@ -277,7 +277,7 @@ color: var(--primari-white-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 1,28; 
+line-height: 1.28; 
 color: var(--primari-white-color);
 }
 
@@ -289,7 +289,7 @@ color: var(--primari-white-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 1,28;
+line-height: 1.28;
 letter-spacing: -0.28px;
 color: var(--primari-white-color);
 }
@@ -300,7 +300,7 @@ list-style-type: none;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: -0.28px;
 color: var(--primari-white-color);
 }
