@@ -1,0 +1,323 @@
+  
+
+ :root {   
+  --bg-color: #FAFAFA;
+  --section-color:#1E1823;
+  --title-text-color: #111;
+  --accent-color: #FD9222;
+  --primari-white-color: #FFFFFF;
+   }
+ 
+ 
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background-color: var(--bg-color);
+}
+
+.list {
+    list-style-type: none;
+  }
+  
+ a {
+    text-decoration: none; 
+    font-style: normal;
+  }
+
+  button {
+  cursor: pointer;
+  }
+
+/* HEADER */
+  .logo {
+font-size: 18px;
+font-weight: 700;
+line-height: 1,28; 
+letter-spacing: -0.54px;
+cursor: pointer;
+list-style-type: none;
+color: var(--title-text-color);
+  }
+.menu-item {
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1,14;
+  letter-spacing: -0.28px;
+  color: var(--title-text-color);
+}
+
+  /* HERO */
+  .hero-section {
+   background-color: rgba(17, 17, 17, 0.40);
+  }
+
+  .hero-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,21;
+    letter-spacing: -0.84px;
+    color: var(--primari-white-color);
+  }
+
+  .hero-button {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid var(--primari-white-color);
+    color: var(--primari-white-color);
+  } 
+
+.hero-button:hover,
+.hero-button:focus  {
+background-color: var(--accent-color);
+}
+
+  .hero-link {
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--primari-white-color);
+  }
+
+  .hero-link {
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1,28;
+letter-spacing: -0.42px;
+color: var(--primari-white-color)
+  }
+
+/* BENEFITS */
+.benefit-section {
+background-color: var(--section-color);
+}
+.benefit-list {
+  list-style-type: none;
+}
+.benefit-name { 
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--primari-white-color);
+}
+
+.benefit-text {
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.28px;
+color: rgba(255, 255, 255, 0.70);
+}
+
+/* INGREDIENTS */
+.ingredients-title {
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,16; 
+letter-spacing: -0.72px;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+ 
+.ingredients-title-accent {
+  color: var(--accent-color);
+}
+
+.ingredients-text {
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,28;
+letter-spacing: -0.28px;
+color: var(--title-text-color);
+}
+
+.ingredients-list {
+  list-style-type: none;
+}
+
+.ingredients-name {
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,28; 
+letter-spacing: -0.28px;
+text-transform: uppercase; 
+color: var(--title-text-color);
+}
+
+/* HOW IT`S MADE SECTION */
+.made-section {
+  background-color: var(--primari-white-color);
+}
+
+.made-title {
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,16;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+.made-title-accent {
+  color: var(--accent-color);
+}
+
+.made-name {
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,33;
+color: var(--title-text-color);
+}
+
+.made-item {
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28;
+letter-spacing: -0.28px;
+color: var(--title-text-color);
+}
+
+/* REVIEWS SECTION */
+.reviews-titlt {
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.16;
+letter-spacing: -0.72px;
+text-align: center;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+.reviews-titlt-accent {
+  color: var(--accent-color);
+}
+
+.reviews-list {
+  list-style-type: none;
+  background-color: var(--primari-white-color);
+}
+
+.reviews-name {
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+color: var(--title-text-color);
+}
+
+.reviews-text {
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,16; 
+letter-spacing: -0.28px;
+color: rgba(17, 17, 17, 0.70);
+}
+
+.reviews-button {
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 100px;
+border: 1px solid var(--accent-color);
+background-color: var(--primari-white-color);
+color: var(--title-text-color);
+}
+
+.reviews-button:hover,
+.reviews-button:focus  {
+background-color: var(--accent-color);
+}
+
+/* Footer */
+.footer-section {
+  background-color: var(--section-color);
+}
+
+.footer-text {
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 1,21;
+letter-spacing: -0.56px;
+color: var(--primari-white-color);
+}
+
+.footer-text-accent {
+  color: var(--accent-color);
+}
+
+.footer-contact-title {
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1,28; 
+color: var(--primari-white-color);
+}
+
+.footer-contact-item {
+  list-style-type: none;
+}
+
+.footer-contact-link {
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,28;
+letter-spacing: -0.28px;
+color: var(--primari-white-color);
+}
+
+.footer-nav-item {
+cursor: pointer;
+list-style-type: none;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1,14;
+letter-spacing: -0.28px;
+color: var(--primari-white-color);
+}
+
+.footer-button {
+  
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  border-radius: 100px;
+  background: var(--accent-color);
+  color: var(--primari-white-color);
+}
+ 
+.footer-button:hover,
+.footer-button:focus  {
+background-color: var(--accent-color);
+}
